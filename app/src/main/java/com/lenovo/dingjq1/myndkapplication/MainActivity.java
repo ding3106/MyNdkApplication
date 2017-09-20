@@ -12,10 +12,12 @@ import org.jdom2.Document;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG = "dingjq1";
+    private static final String TAG = "wanhuo";
+
 
     // Used to load the 'native-lib' library on application startup.
     static {
+
         System.loadLibrary("native-lib");
 
     }
@@ -23,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        //Todo First todo
+
         Log.d(TAG, "onCreate() called with: savedInstanceState = [" + savedInstanceState + "]");
 
         super.onCreate(savedInstanceState);
